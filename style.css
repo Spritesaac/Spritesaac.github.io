@@ -1,0 +1,144 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+border: 0;
+}
+
+body {
+font-family: arial, sans-serif;
+}
+
+body {
+      background-color: #1C162C;
+     }
+header {
+       background-color: #241A30;
+       }
+header, footer {
+               text-align: center;
+               }
+h1 {
+    font-size:50px;
+    color: #F8DEA7; 
+    text-transform: uppercase;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+   }
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+
+.item {
+       background-color: #6F5B8A;
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+}
+main {
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+
+nav {
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+background: #E0A960; 
+color: black;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background: #EBC182;
+}
+
+@media screen and (min-width: 768px ) { 
+body {
+background-color: antiquewhite;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+	}
+.item {
+width: 31.3%;
+		float: left;
+background-color: #6F5B8A; 
+
+}
+footer {
+color: #F8DEA7;
+clear: both;		
+		} } 
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ECAD65;
+  color: #F8E3C5;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #E8902F;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #FFF1CC;
+  padding: 20px;
+}
+h1{
+font-family: 'Flavors', sans-serif;
+}
+h2{
+font-family: 'Wallpoet', sans-serif;
+}
+p,li,blockquote{
+font-family: 'Odibee Sans', sans-serif;
+}
+
+
+
+
+.frame-border { 
+border:3px solid #E2CE9F;
+}
